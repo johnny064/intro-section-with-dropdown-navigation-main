@@ -48,5 +48,5 @@ Users should be able to:
 
 ## Author
 - Frontend Mentor - [@johnny064](https://www.frontendmentor.io/profile/johnny064)
-- Twitter - [https://www.linkedin.com/in/kazi-monirul-islam-b2b258231/](https://www.linkedin.com/in/kazi-monirul-islam-b2b258231/)
+- LinkedIn - [https://www.linkedin.com/in/kazi-monirul-islam-b2b258231/](https://www.linkedin.com/in/kazi-monirul-islam-b2b258231/)
 
