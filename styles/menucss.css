@@ -1,0 +1,95 @@
+
+/* Menu page design */
+
+.menu{
+    width:250px;
+    height: 100vh;
+    position: absolute;
+    top:-20px;
+    right: 0px;
+    background-color: whitesmoke;
+    font-size: 18px;
+    transition: 0.2s ease-out;
+    opacity: 0;
+    z-index: -999;
+}
+.menuBtnOpen img{
+    position: absolute;
+    margin-right: 40px;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+.menuBtnClose img{
+    position: absolute;
+    margin: 20px;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+.menu .menu-list{
+    margin: 100px 40px;
+    padding-top: 18px;
+}
+.menu .menu-list img{
+    margin-left: 5px;
+}
+.menu-list li{
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+.menu-list li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* login menu */
+.login-menu{
+    margin-top: -60px;
+}
+.login-menu li{
+    margin-bottom: 40px;
+    list-style-type: none;
+    text-align: center;
+}
+.login-menu li a{
+    text-decoration: none;
+    color: black;
+}
+.login-menu li:last-child a{
+    border: 01px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.login-menu li:last-child a:hover{
+    background-color: black;
+    color:white;
+    transition: 0.3s ease-out;
+}
+
+/* javascript toggle menu */
+.action{
+    
+    opacity: 1;
+    z-index: 999;
+    transition: 0.2s ease-out;
+    animation: fade-in-out 0.5s ease-out;
+    box-shadow: 0px 0px 20px 9px #c7b5b5;
+}
+@keyframes fade-in-out{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 1;
+    }
+}

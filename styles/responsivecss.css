@@ -1,0 +1,150 @@
+@media screen and (min-width: 675px) {
+    
+    .header-container{
+        width: 85%;
+        height: 60px;
+        margin: 30px auto;
+        margin-left: 180px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo{
+        margin-right: 40px;
+    }
+/*  Menu design */
+    .menu{
+        width:1250px;
+        height: 40px;
+        position: static;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        opacity: 1;
+        z-index: 999;
+        background-color: #fff;
+    }
+    .menuBtnOpen img{
+        display: none;
+    }
+    .menuBtnClose img{
+        display: none;
+    }
+    .menu-list{
+        margin: auto;
+        padding-top: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    .menu .menu-list img{
+        margin-left: 5px;
+    }
+    .menu-list li a{
+        color: black;
+    }
+/* login menu */
+    .login-menu{
+        margin:auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+    }
+    .login-menu li{
+        margin-bottom: 0px;
+        list-style-type: none;
+        text-align: center;
+    }
+/* sub menu */
+    .sub-ft-menu{
+        margin:10px 15px;
+        position: absolute;
+        display: none;
+        transition: 0.5s ease-out;
+        background-color: rgba(230, 228, 228, 0.544);
+        padding: 10px;    
+    }
+    .sub-ft-menu li a{
+        color: black;
+        font-size: 0.9rem;
+    }
+    .sub-ft-menu li a:hover{
+        color: black;
+    }
+    .sub-com-menu{
+        margin:10px 15px;
+        position: absolute;
+        display: none;
+        transition: 0.5s ease-out;
+        background-color: rgba(230, 228, 228, 0.544);
+        padding: 10px;
+    }
+    .sub-com-menu li a{
+        color: black;
+    }
+    .sub-com-menu li a:hover{
+        color: black;
+    }
+    /* main section Div */
+    .main-section{
+        margin: 20px auto;
+        width: 80%;
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        position: relative;
+    }
+    .home-img-desktop img{
+        display: block;
+        position: absolute;
+        top: 0px;
+        right: 20px;
+        transform: translate(-20%);
+        max-height: 500px;
+        width: 450px;
+    }
+    .home-img-mobile{
+        display: none;
+    }
+    /* text section CSS */
+    .home-text{
+        width: 600px;
+    }
+    .header-text{
+        font-size: 4.8rem;
+        text-align: left;
+    }
+    .para-text{
+        margin: 10px 0px;
+        color:hsl(0, 0%, 41%);
+        text-align: left;
+        width: 400px;
+    }
+    .btn{
+        margin: 20px 0px;
+        text-align: left;
+    }
+    .pageBtn{
+        padding: 20px 40px;
+    }
+    .brands{
+        margin: 110px 150px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+    }
+    .brands img{
+        width: 100px;
+    }
+/* toggle clases */
+    .menu-toggle{
+        display:block;
+        z-index: 999;
+        transition: 0.5s ease-out;      
+    }
+  }

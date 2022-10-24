@@ -1,0 +1,84 @@
+/* font declare */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+/* font-family: 'Epilogue', sans-serif; */
+
+/* reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Epilogue', sans-serif;  
+    position: relative;
+    transition: 0.3s ease-out;
+}
+/* header section */
+.header-container{
+    width: 375px;
+    height: 40px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* main section design */
+.home-img-mobile img{
+    width: 100%;
+    max-height: 40vh;
+    background-size:cover;
+    margin: 10px auto;
+}
+.home-img-desktop img{
+    display:none
+}
+nav{
+    cursor: pointer;
+}
+/*  home content area*/
+.header-text{
+    font-size: 1.6rem;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 700;
+}
+.para-text{
+    margin: 10px 50px;
+    color:hsl(0, 0%, 41%);
+    text-align: justify;
+}
+.btn{
+    margin: 20px auto 20px;
+    text-align: center;
+}
+.pageBtn{
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pageBtn:hover{
+    background-color: hsl(0, 0%, 1%);
+    color: white;
+}
+.brands{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.brands img{
+    width: 20%;
+}
+/* Footer */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    font-weight: bold; 
+}
